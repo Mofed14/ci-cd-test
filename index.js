@@ -5,7 +5,7 @@ app.get('/api/v1/permissions', (req, res) => {
   console.log('test permissions');
 });
 
-app.get('/api/rules', (req, res) => {
+app.get('/api/v1/rules', (req, res) => {
   console.log('test rules');
 });
 
