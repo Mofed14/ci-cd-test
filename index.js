@@ -6,7 +6,7 @@ app.get('/api/permissions', (req, res) => {
 });
 
 app.get('/api/rules', (req, res) => {
-  console.log('test permissions');
+  console.log('test rules');
 });
 
 app.listen(5000, () => {
