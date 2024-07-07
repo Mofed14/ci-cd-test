@@ -1,6 +1,10 @@
 module.exports = {
-  env: {
-    node: true,
+  languageOptions: {
+    globals: {
+      // define global variables here
+      // For example:
+      // myGlobalVar: true,
+    },
   },
   extends: ['eslint:recommended'],
   rules: {
