@@ -1,7 +1,7 @@
 module.exports = {
   rules: {
     // Default rules
-    'no-console': 'warn',
+    'no-console': 'off',
     //     'no-undef': 'error',
     semi: 'error',
     'semi-spacing': 'error',
