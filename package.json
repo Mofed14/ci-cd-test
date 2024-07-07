@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint . --max-warnings=0",
+    "lint": "eslint . --config eslint.config.js --max-warnings=0",
     "start": "node index.js"
   },
   "keywords": [],
