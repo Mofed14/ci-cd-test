@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-app.get('/api/permissions', (req, res) => {
+app.get('/api/v1/permissions', (req, res) => {
   console.log('test permissions');
 });
 
