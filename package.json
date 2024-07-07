@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint . --exit js",
+    "lint": "eslint . --ext .js --config eslint.config.js",
     "start": "node index.js"
   },
   "keywords": [],
